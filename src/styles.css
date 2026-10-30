@@ -1,0 +1,142 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#19243c;background:#f4f6fa;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.55;cursor:not-allowed}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #a9c8ff;outline-offset:1px}h1,h2,h3,p{margin-top:0}h1,h2,h3{letter-spacing:-.035em}h3{font-size:18px;margin-bottom:7px}p{line-height:1.55}small{font-size:12px}.shell{min-height:100vh;display:flex;--panel:#fff;--foreground:#19243c;--muted:#7e899e;--line:#e7ebf2;--input:#fff;color:var(--foreground);background:#f4f6fa}.shell.dark{--panel:#1d293d;--foreground:#f1f5ff;--muted:#aab5ca;--line:#354157;--input:#202e44;background:#111b2b}.sidebar{width:256px;flex:none;background:#111d35;color:#e8efff;min-height:100vh;display:flex;flex-direction:column;padding:27px 15px;position:sticky;top:0;height:100vh;z-index:15}.brand{display:flex;align-items:center;gap:11px;padding:0 12px 29px}.brand strong{font-size:18px;letter-spacing:.1em}.brand small{display:block;color:#98a9c9;margin-top:4px}.logo-mark{display:grid;place-items:center;width:45px;height:45px;border-radius:14px;background:linear-gradient(135deg,#498cf7,#805bdb);color:white;font-weight:900;letter-spacing:-.12em;box-shadow:0 8px 24px #426cde38;flex:none}.side-label{font-size:10px;letter-spacing:.16em;color:#8193b2;padding:0 16px;margin:11px 0 13px}.nav-link{width:100%;display:flex;align-items:center;gap:12px;border:0;background:transparent;color:#9faccc;padding:13px;border-radius:10px;text-align:left;margin:2px 0;font-size:13px;font-weight:600}.nav-link span{flex:1}.nav-link:hover{background:#23314c;color:white}.nav-link.active{color:white;background:#30477b;box-shadow:inset 3px 0 #78a7ff}.side-bottom{display:flex;align-items:center;gap:9px;margin-top:auto;border-top:1px solid #34415a;padding:19px 0 0}.avatar{width:37px;height:37px;display:grid;place-items:center;border-radius:11px;background:#394d76;font-weight:800}.side-user{flex:1;overflow:hidden}.side-user b,.side-user small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.side-user b{font-size:12px}.side-user small{color:#9aaccc;margin-top:3px;text-transform:capitalize}.main{min-width:0;flex:1}.topbar{background:var(--panel);min-height:87px;display:flex;align-items:center;justify-content:space-between;padding:16px 31px;border-bottom:1px solid var(--line)}.topbar h2{font-size:23px;margin:4px 0 0}.breadcrumb{font-size:11px;color:var(--muted)}.top-actions,.row{display:flex;align-items:center}.gap{gap:11px}.top-actions{gap:16px}.hello{font-size:13px;color:var(--muted)}.icon-button{background:transparent;border:0;color:inherit;display:inline-flex;align-items:center;justify-content:center;padding:8px;border-radius:9px}.icon-button:hover{background:#94a3b820}.content{max-width:1570px;margin:auto;padding:29px 31px 65px}.hero{display:flex;justify-content:space-between;align-items:center;gap:24px;background:linear-gradient(110deg,#192e59,#2e5ba6);padding:34px 35px;border-radius:18px;color:white;margin-bottom:22px;overflow:hidden;position:relative}.hero:after{content:'';position:absolute;width:300px;height:300px;border:52px solid #ffffff09;border-radius:50%;right:7%;top:-170px;pointer-events:none}.hero h1{font-size:29px;margin:9px 0 7px}.hero p{color:#c4d3ee;margin-bottom:0}.eyebrow{font-size:10px;font-weight:800;letter-spacing:.15em;color:#aaceff}.btn{border:0;border-radius:10px;padding:11px 16px;font-size:13px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;min-height:42px}.btn.primary{background:#356bd8;color:white}.btn.primary:hover{background:#255ac5}.btn.white{background:#fff;color:#244676;position:relative;z-index:1}.btn.ghost{background:#eff4ff;color:#315baf}.dark .btn.ghost{background:#31415e;color:#dfebff}.btn.full{width:100%}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:22px}.stat,.panel{background:var(--panel);border:1px solid var(--line);border-radius:15px}.stat{padding:21px;display:flex;flex-direction:column;gap:9px}.stat-icon{color:#4374dc;background:#eaf1ff;width:39px;height:39px;border-radius:11px;display:grid;place-items:center}.stat small{color:var(--muted);font-size:12px}.stat b{font-size:23px;letter-spacing:-.04em;overflow-wrap:anywhere}.panel{padding:24px;margin-bottom:21px;box-shadow:0 3px 16px #1a345006}.section-title{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}.section-title p{font-size:13px;color:var(--muted);margin-bottom:0}.table-scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px;text-align:left}th{color:var(--muted);font-size:11px;font-weight:750;text-transform:uppercase;letter-spacing:.035em;background:#8492a808}th,td{padding:14px 13px;border-bottom:1px solid var(--line)}td{vertical-align:middle}td small{display:block;color:var(--muted);margin-top:4px}td strong{font-size:12px}.amount{font-weight:800;white-space:nowrap}.table-actions{display:flex;gap:6px}.table-actions button{border:1px solid var(--line);background:var(--panel);color:var(--foreground);border-radius:8px;padding:8px}.table-actions button:hover{color:#356bd8}.action-link{border:0;background:transparent;color:#3469d7;font-weight:700;display:inline-flex;align-items:center;gap:5px;padding:5px}.table-foot{color:var(--muted);font-size:12px;padding-top:17px}.empty{text-align:center;padding:43px;color:var(--muted)}.pill{display:inline-block;font-size:11px;font-weight:750;padding:6px 10px;border-radius:30px;text-transform:capitalize}.pill.emitida{background:#dff6e9;color:#167e49}.pill.borrador{background:#eaf0ff;color:#3c62b6}.pill.anulada{background:#ffe2e2;color:#ba3434}.filters{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:9px;margin-bottom:19px}.filters input,.filters select{min-width:0}.search{display:flex;align-items:center;gap:8px;background:var(--input);border:1px solid var(--line);border-radius:9px;padding:0 11px;color:var(--muted)}.search input{border:0!important;outline:0!important;background:transparent!important;flex:1;min-width:0}.standalone{max-width:400px;margin-bottom:20px}.document-layout{display:grid;grid-template-columns:minmax(0,1fr) 316px;gap:19px;align-items:start}.document-side{position:sticky;top:20px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.span2{grid-column:span 2}label{display:flex;flex-direction:column;gap:7px;font-size:12px;font-weight:700;color:var(--foreground)}input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:9px;color:var(--foreground);background:var(--input);font-weight:500;font-size:13px;min-height:42px}textarea{resize:vertical}input[type=checkbox]{width:16px;height:16px;min-height:0;accent-color:#356bd8;flex:none}.checkline{flex-direction:row;align-items:center;font-size:12px;color:var(--muted);font-weight:500;gap:9px;line-height:1.35}.notice{display:flex;gap:11px;align-items:flex-start;padding:13px 15px;color:#936515;background:#fff5dc;border:1px solid #ffe7ac;border-radius:10px;font-size:12px;line-height:1.6;margin:17px 0}.notice svg{flex:none;margin-top:1px}.item-card{border:1px solid var(--line);border-radius:11px;padding:17px;margin-bottom:13px}.item-top{display:flex;justify-content:space-between;align-items:center;font-size:13px;margin-bottom:13px}.danger{color:#d65959}.item-form{display:grid;grid-template-columns:1.2fr 1.6fr .65fr .75fr 1fr;gap:9px;align-items:end}.item-total{font-size:13px;text-align:right;overflow-wrap:anywhere}.item-total small{display:block;color:var(--muted);margin-bottom:7px}.item-total strong{font-size:14px}.item-card>.checkline{margin-top:15px}.summary h3{margin-bottom:23px}.summary-line,.summary-grand{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:13px 0;border-bottom:1px solid var(--line);font-size:13px}.summary-line span{color:var(--muted)}.summary label{margin:16px 0}.summary-grand{border:0;margin:14px -24px 20px;padding:20px 24px;background:#edf3ff;color:#193869;font-weight:800}.summary-grand b{font-size:24px;overflow-wrap:anywhere}.dark .summary-grand{background:#273e60;color:#e7f0ff}.hint,.muted{display:block;color:var(--muted);font-size:11px;line-height:1.6;margin:12px 0}.modal-backdrop{position:fixed;inset:0;background:#081427b8;z-index:100;display:flex;justify-content:center;align-items:center;padding:16px}.modal{background:#fff;color:#19243c;border-radius:16px;max-height:95vh;overflow:auto;width:min(900px,100%);box-shadow:0 28px 90px #0005}.modal.small{width:min(470px,100%)}.modal-title{display:flex;align-items:center;justify-content:space-between;padding:17px 22px;border-bottom:1px solid #e8ebf1;gap:12px}.modal-title h3{margin:0}.modal-title small{display:block;color:#7986a2}.modal-body{padding:22px;display:grid;gap:13px}.modal-body label{color:#25334c}.modal-body input{color:#25334c;background:#fff}.preview-modal{width:min(950px,100%);background:#eef1f5}.paper{background:white;color:#212c3e;margin:24px auto;padding:42px 47px;width:min(794px,calc(100% - 30px));min-height:900px;box-shadow:0 12px 35px #0d26371b;position:relative;font-size:12px}.paper-header{display:flex;justify-content:space-between;gap:30px}.paper-header p{font-size:11px;color:#566276;margin:5px 0}.paper-logo{font-size:23px;font-weight:900;color:#274e9e;margin-bottom:12px}.paper-right{text-align:right}.paper-right h2{font-size:17px;margin:0 0 12px}.paper-right strong{font-size:17px}.fiscal{padding:14px;border:1px dashed #9aaed0;margin-top:22px;font-size:11px}.fiscal p{margin:3px 0}.paper-client{margin:27px 0 21px;background:#f5f7fc;padding:17px}.paper-client small{color:#62769b;font-weight:800}.paper-client h3{margin:8px 0}.paper-client p{margin:3px 0;color:#536179}.paper-table{font-size:11px}.paper-table th{background:#213f78;color:white;font-size:10px}.paper-table td{padding:13px 9px}.paper-summary{display:flex;justify-content:flex-end;gap:35px;margin:28px 0;font-size:12px}.paper-summary>div:last-child{text-align:right}.paper-summary p{margin:0;padding-bottom:13px}.paper-summary b{font-size:16px}.paper-note{border-top:1px solid #e2e5ef;margin-top:25px;padding-top:16px;white-space:pre-wrap}.paper-footer{text-align:center;font-size:11px;color:#68758d;border-top:1px solid #e6e9f0;margin-top:45px;padding-top:17px}.paper-footer p{margin:5px}.cancelled{position:absolute;top:45%;left:29%;transform:rotate(-23deg);border:8px solid #e62a2a;color:#e62a2a;font-size:60px;font-weight:900;opacity:.25;padding:6px 20px}.toast{position:fixed;bottom:24px;right:24px;background:#1c3158;color:white;z-index:130;border-radius:10px;padding:14px 17px;box-shadow:0 12px 30px #0003;max-width:450px;font-size:13px;display:flex;align-items:center;gap:15px}.toast button{border:0;background:transparent;color:white}.setup,.splash{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:35px;background:#f2f5fc}.setup h1{font-size:37px}.setup p{max-width:560px;color:#627187}.setup code{color:#325eb6}.login-bg{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;background:#f8faff}.login-art{background:radial-gradient(circle at 85% 20%,#5670d0 0,transparent 33%),linear-gradient(140deg,#0f1d39,#1a3467);color:white;padding:13% 10%;display:flex;flex-direction:column;justify-content:center;position:relative}.login-label{font-size:11px;letter-spacing:.25em;color:#8eafff;font-weight:800}.login-art h1{font-size:clamp(38px,5vw,67px);line-height:1.08;margin:24px 0}.login-art h1 em{font-style:normal;color:#96bbff}.login-art>p{font-size:17px;color:#c1d0ec;max-width:410px}.decor-card{display:flex;align-items:center;gap:17px;border:1px solid #ffffff30;background:#ffffff12;border-radius:15px;max-width:380px;padding:19px;margin-top:40px}.decor-card div{flex:1}.decor-card small{display:block;color:#aec1e4;margin-top:6px}.login-footer{position:absolute;bottom:35px;font-size:12px;color:#90a7cf}.login-form-col{display:flex;justify-content:center;align-items:center;padding:35px}.login-card{width:min(420px,100%)}.login-card>.logo-mark{margin-bottom:27px}.login-card h2{font-size:31px;margin-bottom:8px}.login-card>p{color:#7f8ba3;font-size:13px;margin-bottom:32px}.login-card label{margin:17px 0;font-size:13px}.login-card input{background:white}.login-card .btn{margin-top:24px}.text-button{display:block;margin:22px auto;background:transparent;border:0;color:#3869cf;font-size:13px;font-weight:700}.error{color:#b83040!important;background:#ffe8e8;padding:12px;border-radius:8px}.menu-mobile,.mobile-close{display:none}@media(max-width:1200px){.item-form{grid-template-columns:repeat(4,1fr)}.item-product,.item-name{grid-column:span 2}.item-total{grid-column:span 4}.stats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:900px){.sidebar{position:fixed;left:0;transform:translateX(-100%);transition:transform .2s}.sidebar.shown{transform:none}.overlay{position:fixed;inset:0;background:#0008;z-index:14}.menu-mobile,.mobile-close{display:inline-flex}.mobile-close{margin-left:auto}.document-layout{grid-template-columns:1fr}.document-side{position:static}.content{padding:19px}.topbar{padding:15px 20px}.login-bg{grid-template-columns:1fr}.login-art{display:none}.login-form-col{min-height:100vh}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:610px){.hero{display:block;padding:25px}.hero h1{font-size:23px}.hero .btn{margin-top:20px}.stats{gap:9px}.stat{padding:15px}.stat b{font-size:17px}.panel{padding:17px}.section-title{flex-wrap:wrap}.form-grid{grid-template-columns:1fr}.span2{grid-column:span 1}.filters{grid-template-columns:1fr 1fr}.filters>.search{grid-column:span 2}.item-form{grid-template-columns:1fr 1fr}.item-product,.item-name,.item-total{grid-column:span 2}.paper{padding:20px 16px;width:calc(100% - 12px);min-height:600px}.paper-right h2{font-size:13px}.paper-header{gap:12px}.paper-logo{font-size:17px}.modal-title{flex-wrap:wrap}.modal-title .btn{padding:8px}.hello{display:none}.topbar h2{font-size:18px}}@media print{@page{size:A4;margin:12mm}body{background:white!important}.sidebar,.main,.no-print,.toast,.preview-layer>.modal>.modal-title{display:none!important}.modal-backdrop,.preview-layer,.preview-modal{display:block!important;position:static!important;inset:auto!important;overflow:visible!important;background:white!important;max-width:none!important;max-height:none!important;width:100%!important;padding:0!important;margin:0!important;box-shadow:none!important;border:0!important}.paper{width:100%!important;min-height:0!important;padding:0!important;margin:0!important;box-shadow:none!important}.paper-table thead{display:table-header-group}.paper-table tr{break-inside:avoid}.paper-footer{break-inside:avoid}}
+
+/* Identidad de marca y formato de impresión INNOVANET */
+.brand-logo{width:58px;height:50px;object-fit:contain;object-position:center;flex:none;border-radius:8px;background:#fff;padding:3px}
+.login-card>.brand-logo{width:105px;height:92px;object-fit:contain;margin-bottom:16px;background:transparent;padding:0}
+.fiscal-paper{font-family:Georgia,"Times New Roman",serif;color:#242424;padding:0 32px 0;width:min(794px,calc(100% - 30px));min-height:1010px;border:1px solid #2a7eab;font-size:12px;display:flex;flex-direction:column}
+.fiscal-banner{background:#3679ac;color:#fff;text-align:center;font-size:32px;font-weight:bold;line-height:1.3;border-bottom:2px solid #ec903a;margin:0 -32px;padding:5px 10px}
+.fiscal-company-name{text-align:center;font-size:26px;font-weight:900;letter-spacing:.012em;line-height:1.15;margin:12px 0 3px;text-transform:uppercase}
+.fiscal-top{display:grid;grid-template-columns:49% 51%;gap:7px;min-height:235px}
+.fiscal-logo{width:90%;height:125px;object-fit:contain;object-position:left center;margin-bottom:6px}
+.fiscal-company-details p{margin:5px 0;font-size:12px;line-height:1.25;overflow-wrap:anywhere}
+.fiscal-identification{text-align:right;padding:8px 5px 0 0}
+.fiscal-date{display:flex;justify-content:flex-end;gap:0;height:37px;font-family:Arial,sans-serif;color:#fff}
+.fiscal-date>*{background:#3679ac;padding:9px 12px;border:1px solid #75accd;font-weight:800}
+.fiscal-date>b{background:#e88223}
+.fiscal-number{font-size:23px;font-weight:900;letter-spacing:.12em;margin:15px 0 7px;overflow-wrap:anywhere}
+.fiscal-cai{font-size:13px;font-weight:700;overflow-wrap:anywhere}
+.fiscal-rtn{font-weight:700;margin:20px 0 0}
+.fiscal-customer{margin:12px 0 10px;font-size:12px;font-weight:700}
+.fiscal-client-line{display:grid;grid-template-columns:auto minmax(0,1fr) auto minmax(90px,.4fr);align-items:end;gap:7px;padding:4px 0}
+.fiscal-client-line span{border-bottom:1px solid #3e8fba;min-height:18px;overflow-wrap:anywhere}
+.fiscal-address{grid-template-columns:auto 1fr}
+.fiscal-table{font-size:12px;width:100%;table-layout:fixed;border-collapse:collapse}
+.fiscal-table th{background:#2788bb;color:#fff;font-family:Georgia,serif;letter-spacing:0;text-transform:none;text-align:center;font-size:12px;padding:10px 5px}
+.fiscal-table th small{display:block;font-size:11px;color:#fff;margin-top:3px}
+.fiscal-table th:nth-child(1){width:12%}.fiscal-table th:nth-child(2){width:43%}.fiscal-table th:nth-child(3){width:17%}.fiscal-table th:nth-child(4){width:15%}.fiscal-table th:nth-child(5){width:13%}
+.fiscal-table td{border:1px solid #549fc1;padding:9px 5px;height:43px;vertical-align:top;overflow-wrap:anywhere;line-height:1.35}
+.fiscal-table td:first-child,.fiscal-table td:nth-child(3),.fiscal-table td:nth-child(4),.fiscal-table td:last-child{text-align:center}
+.fiscal-table td:last-child{font-weight:bold}
+.fiscal-bottom{display:grid;grid-template-columns:55% 45%;gap:0;margin:0 0 40px;font-size:12px}
+.fiscal-legal{padding:10px 10px 0 0}.fiscal-legal p{margin:0 0 13px;overflow-wrap:anywhere;line-height:1.4}
+.fiscal-totals{font-size:12px;border-collapse:collapse}.fiscal-totals th{font-family:Georgia,serif;font-size:12px;background:#3679ac;color:white;text-align:center;text-transform:none;letter-spacing:0;border:1px solid #5aa2c5;width:70%;padding:10px 6px}
+.fiscal-totals td{border:1px solid #5aa2c5;text-align:right;font-weight:bold;padding:10px 7px;white-space:nowrap}
+.fiscal-totals .fiscal-total th,.fiscal-totals .fiscal-total td{font-size:14px}
+.fiscal-footer{background:#3679ac;color:#fff;text-align:center;font-size:17px;line-height:1.25;padding:8px 10px;border-top:2px solid #ed913a;margin:auto -32px 0}
+.fiscal-footer small{display:block;font-size:11px;margin-top:5px;color:white}
+@media(max-width:610px){.fiscal-paper{padding:0 11px}.fiscal-banner,.fiscal-footer{margin-left:-11px;margin-right:-11px}.fiscal-company-name{font-size:19px}.fiscal-banner{font-size:20px}.fiscal-number{font-size:13px}.fiscal-cai{font-size:10px}.fiscal-table th,.fiscal-table td{font-size:9px;padding:6px 3px}.fiscal-date>*{padding:7px 6px}.fiscal-top{min-height:220px}.fiscal-logo{height:85px}}
+@media print{
+ @page{size:A4;margin:8mm}
+ .fiscal-paper{width:100%!important;min-height:275mm!important;border:1px solid #2788bb!important;padding:0 18px!important;break-inside:auto}
+ .fiscal-banner,.fiscal-footer{margin-left:-18px!important;margin-right:-18px!important}
+ .fiscal-banner,.fiscal-footer,.fiscal-date>*,.fiscal-table th,.fiscal-totals th{print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important}
+ .fiscal-company-name{font-size:24px}
+ .fiscal-table tr,.fiscal-bottom,.fiscal-footer{break-inside:avoid}
+}
+
+/* INNOVANET - documento fiscal y comercial: márgenes y pie estable */
+.fiscal-paper{position:relative;isolation:isolate;overflow:hidden;min-height:1030px}
+.fiscal-paper>.fiscal-banner,.fiscal-paper>.fiscal-company-name,
+.fiscal-paper>.fiscal-top,.fiscal-paper>.fiscal-customer,
+.fiscal-paper>.fiscal-table,.fiscal-paper>.fiscal-bottom,
+.fiscal-paper>.fiscal-footer{position:relative;z-index:1}
+.fiscal-paper>.fiscal-footer{flex-shrink:0;margin-top:auto;width:auto}
+.fiscal-footer strong{display:block;font-size:17px;line-height:1.25}
+.fiscal-footer small{display:block;font-family:Arial,sans-serif;font-size:9px;font-weight:700;line-height:1.35;margin-top:5px}
+.fiscal-correlativos{width:100%;max-width:100%;display:flex;flex-direction:column;gap:5px;margin-top:10px;padding-right:4px}
+.fiscal-correlativo{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(65px,1fr);align-items:start;gap:5px;font-size:10px;line-height:1.2;max-width:100%;overflow-wrap:anywhere;word-break:break-word}
+.fiscal-correlativo strong{font-weight:700;min-width:0}
+.fiscal-correlativo span{min-width:0;border-bottom:1px solid #303d47;min-height:13px;overflow-wrap:anywhere}
+.document-watermark{pointer-events:none;user-select:none;position:absolute;top:49%;left:50%;transform:translate(-50%,-50%) rotate(-30deg);font-family:Arial,sans-serif;font-size:clamp(38px,7vw,76px);font-weight:900;letter-spacing:.12em;color:rgba(42,103,155,.065);white-space:nowrap;z-index:0}
+.fiscal-bottom{grid-template-columns:minmax(0,55%) minmax(0,45%)}
+.fiscal-legal{min-width:0;overflow-wrap:anywhere}
+.fiscal-totals{table-layout:fixed;width:100%}
+.fiscal-totals th{width:68%;font-size:11px;overflow-wrap:anywhere}
+.fiscal-totals td{width:32%;font-size:11px;white-space:normal;overflow-wrap:anywhere}
+@media print{
+ .fiscal-paper{position:relative!important;min-height:274mm!important;overflow:visible!important;display:flex!important;flex-direction:column!important}
+ .fiscal-footer{margin-top:auto!important;break-inside:avoid;page-break-inside:avoid}
+ .document-watermark{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+ .fiscal-correlativo{font-size:9px}
+ .fiscal-totals th,.fiscal-totals td{padding:5px 4px}
+}
+
+/* Corrección de líneas de correlativos y márgenes (factura / proforma). */
+.fiscal-legal{min-width:0;overflow:hidden;padding-right:9px}
+.fiscal-correlativos{display:flex;flex-direction:column;gap:5px;min-width:0;max-width:100%;width:100%;margin-top:9px;padding-right:0}
+.fiscal-correlativo{display:flex;align-items:baseline;justify-content:space-between;gap:5px;width:100%;max-width:100%;font-family:Georgia,"Times New Roman",serif;font-size:8px;line-height:1.28;white-space:nowrap;overflow:hidden;word-break:normal;overflow-wrap:normal}
+.fiscal-correlativo strong{flex:0 1 auto;min-width:0;white-space:nowrap;letter-spacing:-.14px;font-weight:700}
+.fiscal-correlativo span{flex:1 1 60px;min-width:43px;max-width:43%;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-bottom:1px solid #333;line-height:1.25}
+.fiscal-reference-warning{font-family:Arial,sans-serif;font-size:8px!important;color:#575d68;line-height:1.2!important;margin-top:7px!important;overflow-wrap:break-word}
+@media print{.fiscal-correlativo{font-size:7.6px!important;gap:3px}.fiscal-correlativo span{max-width:40%}.fiscal-legal{padding-right:8px}.fiscal-footer{margin-top:auto!important}}
+
+/* Proforma: mismo formato visual que la factura, con marca de agua discreta. */
+.paper-proforma .fiscal-banner,.paper-factura .fiscal-banner{background:#3679ac}
+.paper-proforma .document-watermark{color:rgba(42,103,155,.055)}
+.paper-proforma .fiscal-cai{font-size:13px;font-weight:700}
+.fiscal-reference-warning{font-size:8px!important;line-height:1.2!important;margin-top:6px!important}
+
+/* INNOVANET: correlativos más legibles, en una línea y dentro del documento */
+.fiscal-correlativos {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 12px;
+}
+.fiscal-correlativo {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  max-width: 100%;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 10px;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.fiscal-correlativo strong {
+  font-size: inherit;
+  font-weight: 700;
+  min-width: 0;
+  white-space: nowrap;
+  letter-spacing: -0.2px;
+  flex: 0 1 auto;
+}
+.fiscal-correlativo span {
+  font-size: inherit;
+  flex: 1 1 25%;
+  min-width: 0;
+  max-width: 40%;
+  border-bottom: 1px solid #333;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.35;
+}
+@media print {
+  .fiscal-correlativo {
+    font-size: 9.5px !important;
+    gap: 4px !important;
+    line-height: 1.35 !important;
+  }
+  .fiscal-correlativo strong {font-size: inherit !important;}
+  .fiscal-correlativo span {
+    font-size: inherit !important;
+    max-width: 39% !important;
+  }
+}

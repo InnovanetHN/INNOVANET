@@ -1,0 +1,13 @@
+INNOVANET - AJUSTE DE VISUALIZACIÓN FISCAL
+
+1. Conserva tu archivo .env de tu proyecto anterior.
+2. Reemplaza src/App.jsx por el incluido.
+3. En Supabase, comprueba public.autorizaciones_cai: prefijo 000-002-01, rango 101-150.
+4. Ejecuta supabase/03_corregir_rango_factura_prueba.sql SOLO para la factura de prueba identificada.
+5. Inicia npm run dev y vuelve a abrir la vista previa desde Historial.
+
+La factura de PRUEBA conserva su número 001-001-01-00000001. El rango impreso usa el prefijo asociado a la autorización de esa factura, por eso sí se muestra completo en la vista previa. No se transformó una factura registrada como emitida en una factura oficial distinta.
+
+Las proformas NO llevan CAI ni rango fiscal. Al convertir una proforma se crea una factura diferente con el número fiscal disponible.
+
+Verifica antes de emitir que el próximo número disponible no fue usado fuera de INNOVANET. Para emisión fiscal real, valida el formato y tratamiento de impuestos y exoneraciones con asesor fiscal/SAR.

@@ -1,0 +1,7 @@
+INNOVANET - Actualización de impresión
+1. Ejecutar 04_cotizaciones_fiscal.sql SOLO SI AÚN NO FUE EJECUTADO.
+2. Abrir proyecto, ejecutar npm install y npm run dev.
+3. No subir .env a GitHub (.gitignore lo excluye).
+4. El rango de proforma es REFERENCIAL al CAI activo; la proforma no tiene CAI propio.
+5. Los campos de correlativos se guardan en documentos por la migración 04.
+6. No emitir documentos fiscales reales hasta validar los importes tributarios.

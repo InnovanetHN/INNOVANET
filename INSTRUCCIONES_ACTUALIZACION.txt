@@ -1,0 +1,23 @@
+INNOVANET - COTIZACIONES, PROFORMAS Y FACTURAS
+
+1. Respalda tu proyecto y tu base de datos Supabase.
+2. En Supabase SQL Editor ejecuta supabase/04_cotizaciones_fiscal.sql.
+   (Debes haber ejecutado previamente 01_esquema.sql y 02_convertir_proforma_factura.sql.)
+3. Reemplaza SOLO src/App.jsx y src/styles.css en tu proyecto actual por los del paquete.
+4. Conserva .env, src/supabase.js y la carpeta public.
+5. Ejecuta npm run dev y prueba primero con datos de ejemplo.
+
+NUEVO
+- Cotización independiente COT-0000001 con conversión a proforma o factura.
+- Proforma PRO-0000001 puede convertirse a factura sin sobrescribir el original.
+- CAI y numeración se asignan únicamente a facturas emitidas.
+- Tres campos de referencias fiscales editables, impresos dentro de los márgenes.
+- Desglose exonerado/exento/base gravada 15% y 18%; se valida en SQL.
+- Pie de factura al fondo de la hoja; proforma con leyenda de documento privado.
+- Cotización comercial sin información fiscal.
+
+IMPORTANTE
+* Los impuestos y campos fiscales deben validarse con la normativa aplicable antes de emitir facturas reales.
+* La impresión de documentos extensos podría necesitar ajustes de paginación para varias hojas.
+* La cotización convertida solo puede generar un documento directo (proforma o factura).
+* El cambio requiere el SQL. No basta copiar App.jsx.
